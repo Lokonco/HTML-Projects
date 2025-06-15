@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mystery Game</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An interactive HTML5 mystery game - The Case of the Silent Clock">
+    <meta name="author" content="Lorenzo">
+</head>
+<body>
+<header><h1>The Case of the Silent Clock🕰️</h1></header>
+<main>
+    <article>
+        <header>
+            <h2>The Scene of the crime</h2>
+            <p><em>Time of Discovery: 10:42 AM | Location: Clockmaker's Workshop</em></p>
+        </header>
+
+        <blockquote>
+            <p><strong>You enter the workshop.</strong><br>
+            The old grandfather clock has stopped at <mark>9:17</mark>.<br>
+            The room is <em>silent.</em>, filled with the scent of oil and metal shavings</p>
+            <footer>Detective's Initial Observation</footer>
+        </blockquote>
+        <!-- Section 1 investigating-->
+        <section>
+            <h3>🔍 Investigation Phase</h3>
+            <details>
+                <summary><strong>Inspect the body 🔍</strong></summary>
+                <div>
+                    <p>The master clockmaker is slumped over his blueprint-covered desk. In his hand lies a cracked pocket watch.</p>
+                    <details>
+                        <summary>Check the watch⌚</summary>
+                        <blockquote>
+                            <p>The time reads <mark>9:17</mark>—the exact same as the grandfather clock.<br>
+                            <strong>Question:</strong> <em>Were they stopped on purpose?</em></p>
+                        </blockquote>
+                    </details>
+                    <details>
+                        <summary>Check for Injuries</summary>
+                        <p>A bruise on the back of the head—suggesting he was struck from behind. No signs of struggle.</p>
+                    </details>
+                </div>
+            </details>
+
+            <details>
+                <summary><strong>Examine the grandfather Clock🕰️</strong></summary>
+                <div>
+                    <p>The hands are frozen at 9:17. Near the base, a faint smear of specialized grease used in precision mechanics.</p>
+                    <details>
+                        <summary>Inspect the Clock Mechanism</summary>
+                        <p>The pendulum has been carefully jammed. Only someone with deep knowledge of clockwork could do this subtly.</p>
+                    </details>
+                </div>
+            </details>
+
+            <details>
+                <summary>Check the desk drawers🔍🗄️</summary>
+                <div>
+                    <p>You find a letter addressed to <q>L.</q> It's unsigned, but the sharp, deliberate handwriting seems eerily familiar.</p>
+                    <details>
+                        <summary>📜 Read the Letter</summary>
+                        <blockquote>
+                            <p><q>The debt must be paid. You know what you owe me. — Anonymous</q></p>
+                            <footer>— Threatening Letter Found in Desk</footer>
+                        </blockquote>
+                    </details>
+                </div>
+            </details>
+
+            <details>
+                <summary><strong>Interview Witnesses</strong></summary>
+                <div>
+                    <h4>Suspect Profiles:</h4>
+                    <dl>
+                        <dt><strong>🧑‍🔧 Dane the Apprentice</strong></dt>
+                        <dd>Nervous, had access to the workshop. Claims he was at lunch during the incident. Still learning the trade.</dd>
+                            
+                        <dt><strong>🧓 Harold the Rival</strong></dt>
+                        <dd>Business competitor, known to have disputes with the victim. Alibi checks out, but his tone feels rehearsed.</dd>
+                        
+                        <dt><strong>🧕 Faith the Widow</strong></dt>
+                        <dd>Inherits the estate and workshop. Was supposedly shopping, but no receipts found. Years of silent assistance in the workshop give her mechanical knowledge.</dd>
+                    </dl>
+                </div>
+            </details>
+        </section>
+
+        <!--Evidence table-->
+        <aside>
+            <h3>Evidence</h3>
+            <table border="1"> <!--Border is depracted but this is HTML only so yea-->
+                <caption>Key Evidence Summary</caption>
+                <!--Top Row-->
+                <thead>
+                    <tr>
+                        <th>Evidence</th>
+                        <th>Location</th>
+                        <th>Siginificance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                       <td>Broken pocket watch</td>
+                        <td>Victim's hand</td>
+                        <td>Shows time 9:17</td> 
+                    </tr>
+                    <tr>
+                        <td>Stopped grandfather clock</td>
+                        <td>Workshop corner</td>
+                        <td>Also stopped at 9:17</td>
+                    </tr>
+                    <tr>
+                        <td>Threatening letter</label>etter</td>
+                        <td>Desk drawer</td>
+                        <td>Unsigned, familiar handwriting</td>
+                    </tr>
+                    <tr>
+                        <td>Grease smear</td>
+                        <td>Clock base</td>
+                        <td>Recent tampering</td>
+                    </tr>
+                </tbody>
+            </table>
+        </aside>
+
+        <!--SECTION 2 accusations-->
+        <section>
+            <h3>MAKE YOUR ACCUSATION</h3>
+            <p><strong>Choose carefully, You only have one shot</strong></p>
+
+            <details>
+                <summary><b>Accuse Dane the Apprentice</b></summary>
+                <div>
+                    <p><q>I didn’t do it! I swear!</q> He breaks into tears, overwhelmed by the situation.</p>
+                    <p><strong>Result:</strong> <mark>WRONG</mark> – No solid proof. The real killer escapes justice.</p>
+                    <meter value="1" max="10" title="Case Success Rate">1/10</meter>
+                </div>
+            </details>
+
+            <details>
+                <summary><b>Accuse Harold the Rival</b></summary>
+                <div>
+                    <p><q>This is preposterous!</q> He's taken in for questioning, but the evidence doesn't hold.</p>
+                    <p><strong>Result:</strong> <mark>WRONG</mark> – Released due to lack of evidence. You realize too late it wasn’t him.</p>
+                    <meter value="3" max="10" title="Case Success Rate">3/10</meter>
+                </div>
+            </details>
+
+            <details>
+                <summary><b>Accuse Faith the Widow</b></summary>
+                <div>
+                    <p>She sighs deeply. <q>Took you long enough,</q> she says calmly as the handcuffs click.</p>
+                    <p><strong>Result:</strong> <mark>CORRECT</mark> – Case closed! The rare grease on her gloves from tampering with the clock exposed her mechanical expertise—and her guilt.</p>
+                    <meter value="10" max="10" title="Case Success Rate">10/10</meter>
+                </div>
+            </details>
+        </section>
+    </article>
+</main>
+<!--Footer Information-->
+<footer>
+    <p>
+    Created with Pure HTML5 to practice<br>
+    Author:Lorenzo<br>
+    Created:6/15/2025</p>
+    <!--FeedBack-->
+    <details FeedBack>
+        <form>
+            <fieldset>
+                <legend>Rate this mystery game:</legend>
+                <label><input type="radio" name="rating" value="1"> ⭐</label>
+                <label><input type="radio" name="rating" value="2"> ⭐⭐</label>
+                <label><input type="radio" name="rating" value="3"> ⭐⭐⭐</label>
+                <label><input type="radio" name="rating" value="4"> ⭐⭐⭐⭐</label>
+                <label><input type="radio" name="rating" value="5"> ⭐⭐⭐⭐⭐</label>
+            </fieldset>
+            <p><label>FeedBack</label><br>
+                <textarea cols="40" rows="3" placeholder="Leave a review"></textarea></p>
+                <button type="submit">Submit</button>
+        </form>
+    </details>
+</footer>
+</body>
+</html>
